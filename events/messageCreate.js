@@ -9,7 +9,15 @@ client.on("messageCreate", async (message, user, author) => {
 
   if (message.author.id == '302050872383242240') {
     client.channels.cache.get(chx).send({ content: `2 საათში შეგახსენებთ რომ bump-ის cooldown გავიდა!` }).then(() => {
-      setTimeout(() => client.channels.cache.get(chx).send({ content: `<@&993115668700463184> Bump მზადაა! გამოიყენეთ ბრძანება /bump!` }), 7200000)
+      setTimeout(
+        () =>
+          client.channels.cache
+            .get(chx)
+            .send({
+              content: `<@&1025036977122332692> Bump მზადაა! გამოიყენეთ ბრძანება /bump!`,
+            }),
+        7200000
+      );
     })
       .catch()
   }

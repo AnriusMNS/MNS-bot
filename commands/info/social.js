@@ -5,7 +5,7 @@ module.exports.run = async (client, message, args, prefix) => {
   const embed = new discord.MessageEmbed()
     .setTitle("MNS on social media")
     .setDescription(
-      `<:telegram:994914668776783872> https://t.me/moneynoskill \n<:TikTok:995403191397126265> https://www.tiktok.com/@moneyno_skill \n<:TikTok:995403191397126265> https://www.tiktok.com/@1mpres_mns`
+      `<:telegram:994914668776783872> https://t.me/moneynoskill \n<:TikTok:995403191397126265> https://www.tiktok.com/@mnsleader11 \n<:TikTok:995403191397126265> https://www.tiktok.com/@excite_mns`
     )
     .setThumbnail(
       "https://media.discordapp.net/attachments/1002116907069091920/1002515486304645161/mns.png"

@@ -8,7 +8,7 @@ client.on("guildMemberAdd", async (member, message) => {
   const embed = new discord.MessageEmbed()
     .setAuthor(mns.name, mns.iconURL({ dynamic: true }))
     .setDescription(
-      "<:ticky:995006139647398048>სალამი თქვენ გაწევრიანდით **Money no Skill** სერვერზე!\n\nთუ ხართ დამწყები და გსურთ ვაჭრობის უფასოდ სწავლა შემოგვიერთდით ტელეგრამზე - Link ⬇️\n<:telegram:994914668776783872>https://t.me/moneynoskill\n\nასევე გადახედე ჩვენს ფასიან პაკეტებსაც ⬇️\n<#1003615174705561691>\n<#1010841084848513094>\n\nმადლობა ყურადღებისთვის!\n*MnS Administration* <:7936discordstaff:997799942271807568>"
+      "<:ticky:995006139647398048>სალამი თქვენ გაწევრიანდით **Money no Skill** სერვერზე!\n\nთუ ხართ დამწყები და გსურთ ვაჭრობის უფასოდ სწავლა შემოგვიერთდით ტელეგრამზე - Link ⬇️\n<:telegram:994914668776783872>https://t.me/moneynoskill\n\nასევე გადახედე ჩვენს ფასიან პაკეტებსაც ⬇️\n<#1003615174705561691>\n<#1010841084848513094>\n\nმადლობა ყურადღებისთვის!\n*MnS Administration* :heart_on_fire:"
     )
     .setThumbnail(mns.iconURL({ dynamic: true }))
     .setTimestamp()

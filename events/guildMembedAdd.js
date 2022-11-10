@@ -27,7 +27,7 @@ client.on("guildMemberAdd", async (member, message) => {
 <a:9450_vibing_carl:993123167361056818> აიღეთ როლები: <#1003613073782865970> 
 
 კარგი დროის გატარებას გისურვებ ჩვენს სერვეზე! <a:danceHard:993122820626317404> 
-იმედია ბევრს შეისწავლი და რაც მთავარია ბევრ პროფიტებს დადებ! <:7938pepemillionaire:997806850084966422> `
+იმედია ბევრს შეისწავლი და რაც მთავარია ბევრ პროფიტებს დადებ! :heart_on_fire: `
 
   client.channels.cache.get(chx).send({ content: text }).then(msg => {
     setTimeout(() => msg.delete(), 30000)
